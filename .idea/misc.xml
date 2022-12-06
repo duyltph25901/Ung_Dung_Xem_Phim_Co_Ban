@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/bg_bottom_bar.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/bg_btn_login.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/bg_director_actor_item_ad.xml" value="0.1965" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/bg_input_ad.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/bg_input_login.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/bg_input_search_actor_director.xml" value="0.1485" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/bg_layout_boarding.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/custom_circle_boarding.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/ic_favorite_full.xml" value="0.1665" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/ic_favorite_null.xml" value="0.1665" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/layout_input_login.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/rounded_bottom_bar.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/shape_btn_get_started.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/shape_button_next_boarding.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/drawable/shape_social_media.xml" value="0.1755" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_action.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_actor.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_actors.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_all_movie.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_animated.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_boarding.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_directors.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_expand.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_favorite.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_home_ad.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_home_viewer.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_horror.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_list.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_main.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_movie.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_no_internet.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_sci.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_sign_up.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/activity_web_view.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/custom_item_text_auto.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/dialog_forgot_pass_input.xml" value="0.22900763358778625" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/dialog_show.xml" value="0.23148148148148148" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/dialog_update_actor_director_ad.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/dialog_update_movie.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_actors.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_boarding_one.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_boarding_two.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_categories.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_comedy_movie.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_directors.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_favorite_viewer.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_home_ad.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_home_viewer.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_more.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_movies.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_on_boarding_three.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_romance_movie.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/fragment_user_viewer.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/layout_item_actor_viewer.xml" value="0.2625" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/layout_item_director_actor_ad.xml" value="0.2625" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/layout_item_movie_ad.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/layout_movie_viewer_home.xml" value="0.2625" />
+        <entry key="..\:/Users/FPT/Desktop/Project_Reality/Project_1_FPT_SOLO/App_Movie/app/src/main/res/layout/layout_movie_viewer_home_all_movie.xml" value="0.2635416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

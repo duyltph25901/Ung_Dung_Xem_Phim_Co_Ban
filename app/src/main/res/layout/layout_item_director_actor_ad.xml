@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutDirectorActorItemAd"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="10dp">
+
+    <View
+        android:id="@+id/viewSuporter"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        app:layout_constraintTop_toBottomOf="@id/imgDirectorActorItemAd"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/viewActorItem"
+        android:background="@drawable/bg_director_actor_item_ad"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtFullNameDirectorActorItemAd"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/imgDirectorActorItemAd"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="15dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFullNameDirectorActorItemAd"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="10dp"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imgDirectorActorItemAd"
+        app:layout_constraintTop_toTopOf="@id/imgDirectorActorItemAd"
+        android:textSize="18sp"
+        android:text="Full name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDOBDirectorActorItemAd"
+        android:text="Date of birth"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/txtFullNameDirectorActorItemAd"
+        app:layout_constraintTop_toBottomOf="@id/txtFullNameDirectorActorItemAd"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/txtDOBDirectorActorItemAd"
+        app:layout_constraintTop_toBottomOf="@id/txtDOBDirectorActorItemAd"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:id="@+id/txtUpdateDirectorActorItem"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" | "/>
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="#ff00"
+            android:id="@+id/txtDeleteDirectorActorItem"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
