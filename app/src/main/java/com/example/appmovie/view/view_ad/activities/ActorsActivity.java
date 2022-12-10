@@ -183,54 +183,55 @@ public class ActorsActivity extends AppCompatActivity {
         List<Movie> movies = MovieDatabase.getInstance(ActorsActivity.this)
                 .movieDAO().searchMovieByActorName(actorOldName);
         int size = movies.size();
-        if (size == 0) return;
-        for (int i=0; i<size; i++) {
-            Movie movie = movies.get(i);
-            if(movie == null) return;
-            String[] arr = movie.getActors().toString().split(",");
-            String actors = "";
-            // Clear space in head and last
-            for (int j=0; j<arr.length; j++) {
-                if ( arr[j].isEmpty() || arr[j].length()==0) arr[j] = "";
-                arr[j] = arr[j].trim();
-            }
-
-            // Replace old name
-            for (int j=0; j<arr.length; j++) {
-                if (arr[j].toString().matches(actorOldName)) {
-                    arr[j] = fullNameActorUpdate;
+        if (size != 0) {
+            for (int i=0; i<size; i++) {
+                Movie movie = movies.get(i);
+                if(movie == null) return;
+                String[] arr = movie.getActors().toString().split(",");
+                String actors = "";
+                // Clear space in head and last
+                for (int j=0; j<arr.length; j++) {
+                    if ( arr[j].isEmpty() || arr[j].length()==0) arr[j] = "";
+                    arr[j] = arr[j].trim();
                 }
-            }
 
-            // step end
-            for (int j=0; j<arr.length; j++) {
-                if (arr[j].isEmpty() || arr[j].length()==0) {
-                    ++j;
-                    continue;
+                // Replace old name
+                for (int j=0; j<arr.length; j++) {
+                    if (arr[j].toString().matches(actorOldName)) {
+                        arr[j] = fullNameActorUpdate;
+                    }
                 }
-                actors += arr[j] + ", ";
+
+                // step end
+                for (int j=0; j<arr.length; j++) {
+                    if (arr[j].isEmpty() || arr[j].length()==0) {
+                        ++j;
+                        continue;
+                    }
+                    actors += arr[j] + ", ";
+                }
+
+                // Get data old from movie
+                String linkTrailer = movie.getLinkTrailer();
+                String linkMovie = movie.getLinkFilm();
+                String movieName = movie.getMovieName();
+                byte[] poster = movie.getPoster();
+                String directors = movie.getDirectors();
+                String premiereSchedule = movie.getPremiereSchedule();
+                String category = movie.getCategory();
+                String summary = movie.getSummary();
+                int limitAge = movie.getLimitAge();
+                int time = movie.getTime();
+                double point = movie.getPoint();
+
+                MovieDatabase.getInstance(ActorsActivity.this)
+                        .movieDAO().delete(movie);
+                Movie movieNew = new Movie(
+                        poster, linkTrailer, linkMovie,
+                        movieName, directors, actors, premiereSchedule, category, summary, time, limitAge, point
+                );
+                MovieDatabase.getInstance(ActorsActivity.this).movieDAO().insert(movieNew);
             }
-
-            // Get data old from movie
-            String linkTrailer = movie.getLinkTrailer();
-            String linkMovie = movie.getLinkFilm();
-            String movieName = movie.getMovieName();
-            byte[] poster = movie.getPoster();
-            String directors = movie.getDirectors();
-            String premiereSchedule = movie.getPremiereSchedule();
-            String category = movie.getCategory();
-            String summary = movie.getSummary();
-            int limitAge = movie.getLimitAge();
-            int time = movie.getTime();
-            double point = movie.getPoint();
-
-            MovieDatabase.getInstance(ActorsActivity.this)
-                    .movieDAO().delete(movie);
-            Movie movieNew = new Movie(
-                    poster, linkTrailer, linkMovie,
-                    movieName, directors, actors, premiereSchedule, category, summary, time, limitAge, point
-            );
-            MovieDatabase.getInstance(ActorsActivity.this).movieDAO().insert(movieNew);
         }
 
         // Update actor in table Actor
